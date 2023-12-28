@@ -16,11 +16,11 @@ Suppose you have a table named "tax_rule" with a column called "sub_categories."
 
 Table - `tax_rule`
 | id       | sub_categories |
-|----------|---------------|
-| 1        | 1 | 3 | 4     |
-| 2        | 1 | 3 | 4     |
-| 3        | 1 | 38        |
-| 4        | 1 | 35        |
+|----------|--------------- |
+| 1        | 1 - 3 - 4     |
+| 2        | 1 - 3 - 4     |
+| 3        | 1 - 38        |
+| 4        | 1 - 35        |
 
 
 ### Case 1: Comparing a Numeric Value to a Numeric Column
