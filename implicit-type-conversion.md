@@ -40,7 +40,7 @@ In this case, you are comparing the string value '1' to the "sub_categories" col
 
 ## The Caveat
 
-Here's where the caveat lies. If you have values in the "sub_categories" column that are not strictly numeric or do not represent the exact string '1', you might not get the expected results. For instance, if "sub_categories" contains '1 | 3 | 4', it will not match the condition in Case 2, and that row will not be returned.
+Here's where the caveat lies. If you have values in the "sub_categories" column that are not strictly numeric or do not represent the exact string '1', you might not get the expected results. For instance, if "sub_categories" contains '1 - 3 - 4', it will not match the condition in Case 2, and that row will not be returned.
 
 ### Best Practices
 To avoid unexpected behavior due to implicit type conversion, consider the following best practices:
