@@ -12,7 +12,7 @@ Let's explore a common scenario where implicit type conversion can be problemati
 
 ## Scenario
 
-Suppose you have a table named "tax_rule" with a column called "sub_categories." This column contains values such as '1 | 3 | 4', '1 | 3 | 4', '1 | 38', and '1 | 35'. Now, you want to run a query to select rows based on the value of "sub_categories."
+Suppose you have a table named "tax_rule" with a column called "sub_categories." This column contains values such as '1 - 3 - 4', '1 - 3 - 4', '1 - 38', and '1 - 35'. Now, you want to run a query to select rows based on the value of "sub_categories."
 
 Table - `tax_rule`
 | id       | sub_categories |
